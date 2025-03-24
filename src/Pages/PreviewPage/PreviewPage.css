@@ -1,0 +1,45 @@
+
+.appBar {
+    position: fixed;
+}
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191970;
+}
+
+.title {
+    flex-grow: 0;
+}
+
+.navButtons {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/* Sections */
+.section {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.sectionText {
+    color: white;
+    font-weight: 700;
+}
+
+.section1Text {
+    font-size: 2.5rem;
+    /* Equivalent to h4 */
+}
+
+.section2Text {
+    font-size: 2.5rem;
+    /* Equivalent to h4 */
+}
+
